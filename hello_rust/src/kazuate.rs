@@ -17,9 +17,12 @@ pub fn run(){
         print!("input string: ");
         io::stdout().flush().unwrap();
         stdin().read_line(&mut input).expect("failed to read line");
+
         println!("you typed {}", input);
         if input.trim()=="quit"{
             flag=false;
         }
+
+        input = input.trim().split_whitespace()
     }
 }
