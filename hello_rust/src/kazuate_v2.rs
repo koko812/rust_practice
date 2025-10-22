@@ -8,7 +8,7 @@ pub fn run(){
     let ans_numbers = generate_answer();
     let mut debug = args().any(|arg| arg == "debug");
     if debug{
-        println!("{:?}", &ans_numbers[..4]);
+        println!("{:?}", &ans_numbers);
     }
 
     let mut flag = true;
