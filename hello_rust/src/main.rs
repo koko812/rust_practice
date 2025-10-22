@@ -1,5 +1,5 @@
 //mod fizzbazz;
-mod kazuate;
+mod kazuate_v2;
 
 // fn hello_world(){
 //     let word = "Hello, world!";
@@ -12,5 +12,5 @@ mod kazuate;
 fn main() {
     //hello_world();
     //fizzbazz::run();
-    kazuate::run();
+    kazuate_v2::run();
 }
